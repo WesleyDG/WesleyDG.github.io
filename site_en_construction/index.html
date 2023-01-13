@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+		<link href="resources/css/main.css" rel="stylesheet">
+		<title>Wesley DA GRAÇA - Developpeur Web PHP / Laravel - Full Stack</title>
+	</head>
+	<body class="">
+		<div class="position-static">
+			<div class="position-absolute top-50 start-50 translate-middle interface">
+				<div class="container">
+					<div class="row">
+						<div class="col text-center">
+							<p class="fullname text-capitalize fs-1 lh-3 fw-lighter"><span>wesley</span> <span>da graça</span></p>
+							<p class="text-capitalize fs-5"><span>développeur web PHP / Laravel</span> <span>full stack</span></p>
+							<p class="social fs-4"><a href="https://www.linkedin.com/in/wesley-da-graça" title="Linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://github.com/WesleyDG" title="Github"><i class="bi bi-github"></i></a> <a href="mailto:wesley.dagraca@wesweb.fr" title="E-mail"><i class="bi bi-envelope-fill"></i></a></p>
+							<p class="fs-2 border rounded p-2 mt-5"><span>Site actuellement en</span> <span class="text-uppercase">maintenance</span></p>
+							<a href="../resources/files/CV_2021-09-29_Wesley_Da_Graça.pdf" class="btn btn-primary cv ">Télécharger le CV</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap Bundle avec Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<script src="resources/js/global.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.topology.min.js"></script>
+		<script>
+			anime({
+				targets: 'p',
+				opacity: [0, 1],
+				direction: 'normal',
+				duration: 4000,
+				delay: anime.stagger(2000, {start: 1000}), // increase delay by 2500ms for each elements.
+				
+			});
+
+			VANTA.TOPOLOGY({
+				el: "body",
+				mouseControls: false,
+				touchControls: false,
+				gyroControls: false,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				scale: 1.00,
+				scaleMobile: 1.00
+			})
+		</script>
+	</body>
+</html>

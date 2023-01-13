@@ -1,0 +1,1 @@
+<?php/** * Created by Wesley * * Date: 24/01/2020 * */phpinfo();

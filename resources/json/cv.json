@@ -1,0 +1,599 @@
+{
+    "nom": "Da Graça",
+    "prenom": "Wesley",
+    "naissance": {
+        "date": "29/01/1987",
+        "ville": "Boulogne-Billancourt",
+        "code postal": "92100",
+        "pays": "France"
+    },
+    "localisation":{
+        "ville":"La Plaine Saint-Denis",
+        "code postal": "93210", 
+        "pays":"France"
+    },
+    "contact": {
+        "adresse": {
+            "rue": "10 rue Jesse Owens",
+            "ville": "St Denis",
+            "code postal": "93210",
+            "pays": "France"
+        },
+        "tel": {
+            "port": "0637512025",
+            "fixe": ""
+        },
+        "courriel": "wesley.dagraca@gmail.com"
+    },
+    "metier":"Développeur Web PHP",
+    "presentation": {
+        "a": "Bienvenue à vous ! Je suis Wesley Da Graça, Developpeur Web.",
+        "b": "Le domaine de informatique a toujours été une passion, dès mon plus jeune age. Avec la democratisation du web, j'ai pu aller plus loin et m'investir dans ce domaine, jusqu'à m'intéresser à toute les technologies qui entourent le web",
+        "c": "J'aime autant aborder le front-end que le back-end, en passant par l'intégration. Cette polyvalence de garder une vision d'ensemble sur mes projets, et d'analyser un besoin sous plusieurs angles.",
+        "d": "Vous en apprendrez plus sur moi grace à ce site CV, mais pas seulement ! Il me sert également de laboratoire et je m'efforcerai d'utiliser les technologies mentionnées pour son élaboration",
+        "e": ""
+    },
+    "formation": {
+        "a": {
+            "ecole": "Collège du Parc",
+            "diplome": {
+                "nom": "Brevet",
+                "specialisation": "",
+                "niveau rncp": "Bac - 3 (niveau 3)",
+                "options": {},
+                "date obtention": "2003"
+            },
+            "adresse": {
+                "rue": "Place Jean-Claude Abrioux",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "09/2002",
+                "fin": "06/2003"
+            }
+        },
+        "b": {
+            "ecole": "Lycée Voillaume",
+            "diplome": {
+                "nom": "BEP Electronique",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {},
+                "date obtention": "2005"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        },
+        "c": {
+            "ecole": "Lycée Voillaume",
+            "diplome": {
+                "nom": "BAC Pro Micro-Informatique et Réseaux: Installation et Maintenance",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {},
+                "date debut": "2005",
+                "date fin": "2007",
+                "date obtention": "2007"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        },
+        "d": {
+            "ecole": "Lycée Voillaume",
+            "diplome": {
+                "nom": "BAC Pro Micro-Informatique et Réseaux: Installation et Maintenance",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {
+                    "0": "option développeur d’applications"
+                },
+                "date obtention": "07/2007"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "",
+                "code postal": "",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        },
+        "e": {
+            "ecole": "Lycée Voillaume",
+            "diplome": {
+                "nom": "BTS Informatique de Gestion",
+                "specialisation": "",
+                "niveau rncp": "bac+3",
+                "options": {
+                    "0": "option développeur d’applications"
+                },
+                "date obtention": "07/2010"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": "07/2010"
+            }
+        },
+        "f": {
+            "ecole": "IRIS",
+            "diplome": {
+                "nom": "DEES WEB",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {},
+                "date obtention": ""
+            },
+            "adresse": {
+                "rue": "63 Rue Ampère",
+                "ville": "Paris",
+                "code postal": "75017",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "2010",
+                "fin": "2011"
+            }
+        },
+        "g": {
+            "ecole": "CNIL",
+            "diplome": {
+                "nom": "Atelier RGPD (Règlement Général sur la Protection des Données)",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {},
+                "date obtention": "09/2019"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "",
+                "code postal": "",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        },
+        "h": {
+            "ecole": "ORSYS",
+            "diplome": {
+                "nom": "PHP 7, maitriser la programmation orientée Objet",
+                "specialisation": "",
+                "niveau rncp": "",
+                "options": {},
+                "date obtention": "10/2019"
+            },
+            "adresse": {
+                "rue": "",
+                "ville": "La Défense",
+                "code postal": "",
+                "pays": "France"
+            },
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        }
+    },
+    "competences": {
+        "os": "Windows, Ubuntu",
+        "langages": {
+            "PHP": {
+                "nom": "PHP",
+                "versions": "",
+                "maitrise": "80",
+                "frameworks": {
+                    "Laravel": {
+                        "nom": "Laravel",
+                        "maitrise": "0",
+                        "wikipedia": "https://fr.wikipedia.org/wiki/Laravel"
+                    },
+                    "Symfony": {
+                        "nom": "Symfony",
+                        "maitrise": "10",
+                        "wikipedia": "https://fr.wikipedia.org/wiki/Symfony"
+                    }
+                },
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/PHP"
+            },
+            "HTML": {
+                "nom": "HTML",
+                "versions": "",
+                "maitrise": "90",
+                "frameworks": {},
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
+            },
+            "CSS": {
+                "nom": "CSS",
+                "versions": "",
+                "maitrise": "70",
+                "frameworks": {
+                    "Bootstrap": {
+                        "nom": "Bootstrap",
+                        "versions": "3,4",
+                        "maitrise": "90",
+                        "wikipedia": "https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+                    }
+                },
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+            },
+            "Javascript": {
+                "nom": "Javascript",
+                "versions": "",
+                "maitrise": "70",
+                "frameworks": {
+                    "Vuejs": {
+                        "nom": "Vue.js",
+                        "versions": "",
+                        "maitrise": "10",
+                        "wikipedia": "https://fr.wikipedia.org/wiki/Vue.js"
+                    }
+                },
+                "libraries": {
+                    "Jquery": {
+                        "nom": "Jquery",
+                        "versions": "any",
+                        "maitrise": "90",
+                        "wikipedia": "https://fr.wikipedia.org/wiki/JQuery"
+                    }
+                },
+                "wikipedia": "https://fr.wikipedia.org/wiki/JavaScript"
+            },
+            "SQL": {
+                "nom": "SQL",
+                "versions": "",
+                "maitrise": "70",
+                "frameworks": {},
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/Structured_Query_Language"
+            },
+            "Redis":{
+                "nom": "Redis",
+                "versions": "",
+                "maitrise": "50",
+                "frameworks": {},
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/Redis"
+            },
+            "C#": {
+                "nom": "C#",
+                "versions": "",
+                "maitrise": "20",
+                "frameworks": {},
+                "libraries": {},
+                "wikipedia": "https://fr.wikipedia.org/wiki/C_sharp"
+            }
+        },
+        "base de données": "MySQL, SQLServer",
+        "outils": "TortoiseSVN, Wamp, NotePad++, Fireworks, Putty, Photoshop, PhpMyAdmin",
+        "materiel": {}
+    },
+    "experiences": {
+        "a": {
+            "entreprise": "Association Médi@saule",
+            "date": {
+                "debut": "05/2004",
+                "fin": "05/2004"
+            },
+            "poste": "Technicien Helpdesk",
+            "adresse": {
+                "rue": "28 rue du Dr Schweitzer",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "description entreprise": "Association à but non lucratif",
+            "description poste": "dépannage, initiation à l'informatique pour enfants et adultes, accompagnement scolaire",
+            "type": "stage",
+            "langages": "",
+            "environnement": "",
+            "acquis": ""
+        },
+        "b": {
+            "entreprise": "Inter-Réseaux",
+            "date": {
+                "debut": "05/2006",
+                "fin": "06/2006"
+            },
+            "poste": "Câbleur",
+            "adresse": {
+                "rue": "5 avenue des Bois",
+                "ville": "Montigny-lès-Cormeilles",
+                "code postal": "95370",
+                "pays": "France"
+            },
+            "description entreprise": "",
+            "description poste": "mise en place de réseaux informatique, téléphonique et électrique",
+            "type": "stage",
+            "langages": "",
+            "environnement": "",
+            "acquis": ""
+        },
+        "c": {
+            "entreprise": "Milk (Internet Hall)",
+            "date": {
+                "debut": "05/2007",
+                "fin": "06/2007"
+            },
+            "poste": "",
+            "adresse": {
+                "rue": "",
+                "ville": "Paris",
+                "code postal": "75009",
+                "pays": "France"
+            },
+            "description entreprise": "",
+            "description poste": "",
+            "type": "stage",
+            "langages": "",
+            "environnement": "",
+            "acquis": ""
+        },
+        "d": {
+            "entreprise": "Association Médi@saule",
+            "date": {
+                "debut": "05/2008",
+                "fin": "06/2008"
+            },
+            "poste": "Administrateur service informatique",
+            "adresse": {
+                "rue": "28 rue du Dr Schweitzer",
+                "ville": "Aulnay-sous-Bois",
+                "code postal": "93600",
+                "pays": "France"
+            },
+            "description entreprise": "Association à but non lucratif",
+            "description poste": "Administration système/réseau, gestion de parc informatique, dépannage, initiation à l'informatique pour enfants et adultes, accompagnement scolaire",
+            "details poste": {
+                "0": "Refonte et administration du réseau (VPN, comptes et stockage sur serveur)",
+                "1": "Mise en place d’un nouveau site web.",
+                "2": "Gestion et aide clientèle.",
+                "3": "Maintenance du parc informatique"
+            },
+            "type": "stage",
+            "langages": "",
+            "environnement": "Windows Server 2003",
+            "acquis": "Administration système/réseau, gestion de parc informatique, banalisation"
+        },
+        "e": {
+            "entreprise": "ESBM JUDO",
+            "date": {
+                "debut": "05/2009",
+                "fin": "06/2009"
+            },
+            "poste": "Développeur",
+            "adresse": {
+                "rue": "40 Avenue Descartes",
+                "ville": "Le Blanc Mesnil",
+                "code postal": "93150",
+                "pays": "France"
+            },
+            "description entreprise": "École de judo",
+            "description poste": "Développeur",
+            "details poste": {
+                "0": "Développement du site web",
+                "1": "Gestion de contenu"
+            },
+            "type": "stage",
+            "langages": "HTML, CSS",
+            "environnement": "Joomla",
+            "acquis": "CMS, Administration internet"
+        },
+        "f": {
+            "entreprise": "Mairie d’Aubervilliers",
+            "date": {
+                "debut": "01/2010",
+                "fin": "04/2010"
+            },
+            "poste": "Développeur ",
+            "adresse": {
+                "rue": "",
+                "ville": "Aubervilliers",
+                "code postal": "93300",
+                "pays": "France"
+            },
+            "description entreprise": "Mairie",
+            "description poste": "Développeur",
+            "type": "",
+            "langages": "PHP, Jquery, SQL",
+            "environnement": "Windows 7, Apache, MySQL, Notepad++",
+            "acquis": "Services web, Recueil de besoins"
+        },
+        "g": {
+            "entreprise": "Airolia Energies",
+            "date": {
+                "debut": "10/2010",
+                "fin": "06/2011"
+            },
+            "poste": "Webmaster",
+            "adresse": {
+                "rue": "52 rue René Alazar",
+                "ville": "Bagnolet",
+                "code postal": "93170",
+                "pays": "France"
+            },
+            "description entreprise": "Travaux d'installation d'équipements thermiques et de climatisation",
+            "description poste": "Informaticien très polyvalent",
+            "details poste": {},
+            "type": "contrat de professionnalisation",
+            "langages": "PHP, Jquery, SQL",
+            "environnement": "Windows 7, Apache, MySQL, OVH, 1&1, Notepad++, Fireworks, Google Adwords",
+            "acquis": "Réferencement Google, Administration serveur, Développement web, Protocoles mail, Helpdesk."
+        },
+        "h": {
+            "entreprise": "AtixNet",
+            "date": {
+                "debut": "07/2011",
+                "fin": "11/2011"
+            },
+            "poste": "Analyste Développeur",
+            "adresse": {
+                "rue": "",
+                "ville": "Vincennes",
+                "code postal": "94300 ",
+                "pays": "France"
+            },
+            "description entreprise": "",
+            "description poste": "",
+            "details poste": {
+                "0": "Conception et développement d’application web",
+                "1": "Assistance et suivi de projets",
+                "2": "Administration de sites web"
+            },
+            "type": "cdi",
+            "langages": "PHP, SQL, Javascript, JQuery, Symfony 2",
+            "environnement": "Apache, Joomla, TortoiseSVN",
+            "acquis": "Relation client, CMS, développement PHP/Ajax"
+        },
+        "i": {
+            "entreprise": "Mobipel (Free)",
+            "date": {
+                "debut": "01/2014",
+                "fin": "01/2015"
+            },
+            "poste": "Conseiller Multimédia",
+            "adresse": {
+                "rue": "142 avenue Stalingrad",
+                "ville": "Colombes",
+                "code postal": "92700 ",
+                "pays": "France"
+            },
+            "description entreprise": "Centre de contacts spécialisé dans la Relation Client",
+            "description poste": "Assistance Technique pour la marque Free (un des principaux fournisseurs d'accès à Internet et opérateur de téléphonie mobile français) en particulier pour leurs appareils Freebox et autres services. ",
+            "details poste": {
+                "0": "",
+                "1": "",
+                "2": ""
+            },
+            "type": "cdi",
+            "langages": "",
+            "environnement": "Ubuntu",
+            "acquis": "banalisation informatique, relation client"
+        },
+        "j": {
+            "entreprise": "Mobipel (Free)",
+            "date": {
+                "debut": "02/2015",
+                "fin": "07/2015"
+            },
+            "poste": "Conseiller Multimédia Face To Free",
+            "adresse": {
+                "rue": "142 avenue Stalingrad",
+                "ville": "Colombes",
+                "code postal": "92700 ",
+                "pays": "France"
+            },
+            "description entreprise": "Centre de contacts spécialisé dans la Relation Client",
+            "description poste": "Assistance Technique pour la marque Free (un des principaux fournisseurs d'accès à Internet et opérateur de téléphonie mobile français) en particulier pour leurs appareils Freebox et autres services. Recruté dans l'equipe de lancement pour l'application novatrice Face To Free, permettant d'être en contact avec les abonnés via un service de visioconférence développé en interne. ",
+            "details poste": {
+                "0": "",
+                "1": "",
+                "2": ""
+            },
+            "type": "cdi",
+            "langages": "",
+            "environnement": "Ubuntu",
+            "acquis": "banalisation informatique, relation client"
+        },
+        "k": {
+            "entreprise": "MCRA (Free)",
+            "date": {
+                "debut": "07/2015",
+                "fin": "09/2020"
+            },
+            "poste": "Développeur Web",
+            "adresse": {
+                "rue": "57 boulevard Malesherbes",
+                "ville": "Paris",
+                "code postal": "75008",
+                "pays": "France"
+            },
+            "description entreprise": "",
+            "description poste": "Développement Frontend & Backend, et Intégration CSS. ",
+            "type": "cdi",
+            "details poste": {
+                "0": "Développement d'outils divers permettant le bon fonctionnement du service d'assistance aux abonnés",
+                "1": "",
+                "2": ""
+            },
+            "langages": "PHP, Javascript, SQL, HTML, CSS",
+            "environnement": "Cordova, Linux, Git, Github",
+            "acquis": ""
+        }
+    },
+    "port_folio": {
+        "a": {
+            "nom": "Pimento Drink",
+            "url": "www.pimentodrink.com",
+            "description_entreprise": "",
+            "langages": "HTML, CSS",
+            "environnement": "Amen.fr"
+        },
+        "b": {
+            "nom": "Graffcomics",
+            "url": "www.graffcomics.com",
+            "description_entreprise": "",
+            "langages": "",
+            "environnement": "OVH, Wordpress"
+        }
+    },
+    "langues":{
+        "francais": {
+            "nom": "Français",
+            "niveau": {
+                "oral":"",
+                "ecrit":""
+            }
+        },
+
+        "anglais": {
+            "nom": "Anglais",
+            "niveau": {
+                "oral":"",
+                "ecrit":""
+            }
+        },
+
+        "portugais": {
+            "nom": "Portugais",
+            "niveau": {
+                "oral":"notions",
+                "ecrit":""
+            }
+        }
+    },
+    "social":{
+        "github": "https://github.com/WesleyDG",
+        "linkedin": "https://www.linkedin.com/in/wesley-da-gra%C3%A7a-90b308137/"
+    },
+    "hobbies": "Musique, Jeux vidéos, Randonnée"
+}

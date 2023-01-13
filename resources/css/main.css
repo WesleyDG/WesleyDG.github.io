@@ -1,0 +1,358 @@
+body {
+    color: #ecedf0;
+    overflow-x:hidden;
+    max-width: 100%;
+}
+
+section {
+    background-image: linear-gradient(150deg, rgba(255,255,255,0), black);
+    background-color: #2d5cbf;
+    min-height: 100vh;
+}
+
+.col {
+    z-index: 20;
+}
+
+section:nth-child(1){
+    animation-duration : 3s;
+    animation-name: bg;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /*background-image*/
+    background-image: url("/resources/images/Background-icons/plus.svg"), linear-gradient(150deg, rgba(255,255,255,0), black);
+    background-repeat: repeat;
+}
+
+#home_btn{
+    position: absolute;
+    bottom: 32px;
+    font-size: 1rem;
+}
+
+#home_btn a{
+    color:white;
+    text-decoration:none;
+    background: grey;
+    padding:10px;
+    border-radius: 20px;
+}
+
+#home_btn_sticky{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 3rem;
+    z-index: 100;
+}
+
+#home_btn_sticky a{
+    color: #a8a8a8;
+    opacity: 70%;
+}
+
+#home_btn_sticky a:hover{
+    opacity: 85%;
+}
+
+.fullname{
+    line-height: 0.3;
+}
+
+.social a, .social a:visited{
+    color: lightgrey;
+}
+
+.social a:hover{
+    color: white;
+}
+
+.cv{
+    margin-top: 2em;
+}
+
+/*#menu-principal{*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+.btn_menu_principal {
+    border: 1px solid black;
+    padding: 0;
+}
+
+.btn_menu_principal a {
+    /*position*/
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    /*police*/
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.btn_menu_principal:hover {
+    background-color: #2d5cbf;
+}
+
+.btn_menu_principal a:hover {
+    border: 1px solid white;
+    position:relative;
+    animation-name: btn_menu_effect;
+    animation-duration: 0.5s;
+    transition-timing-function: ease-in-out
+
+}
+
+h2{
+    font-weight: lighter;
+    border-bottom: 1px dotted white;
+    margin: 1.5rem 0 3rem 0;
+    padding-bottom: 10px;
+}
+
+#apropos div, #contact div{
+    align-self: center;
+}
+
+.progress{
+    height: 5px;
+}
+
+#competences:after, #experiences:after, #diplomes:after, #contact:after {
+    content:"";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index:10;
+    opacity: 0.2;
+    /*background-image*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    /*animation-duration : 200s;*/
+    animation-duration : 200s;
+    animation-name: rotate360;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+#competences:after {
+    background-image: url("/resources/images/Background-icons/parametres.svg");
+}
+
+#experiences:after {
+    background-image: url("/resources/images/Background-icons/synchroniser.svg");
+}
+
+#diplomes:after {
+    background-image: url("/resources/images/Background-icons/verifie.svg");
+    animation-name: none;
+}
+
+#contact:after {
+    background-image: url("/resources/images/Background-icons/bulle.svg");
+    animation-name: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#competences.row .col .row >div {
+     padding: 2.5em
+ }
+
+#competences.row .col .row >div h5 {
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted lightgray
+}
+
+#competences .progress{
+    margin-bottom: 5px;
+}
+
+div[class^=barre] {
+    height: 100%;
+    background-color: lightgrey;
+    width: 5px;
+    margin-left: 50%;
+}
+
+.barre_haut{
+    border-radius: 10px 10px 0 0;
+}
+
+.barre_bas{
+    border-radius: 0 0 10px 10px;
+}
+
+.point{
+    background-color: lightgrey;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    top: 40%;
+    margin-left: -5px;
+}
+
+#experiences ul {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 0;
+    list-style: inside circle;
+}
+
+#experiences li {
+    padding-bottom: 1rem;
+}
+
+#port-folio div[id^="logo"] a img{
+    transform: scale(.8);
+    filter: grayscale(100%);
+}
+
+#port-folio div[id^="logo"]:hover img{
+    transition-duration: 0.2s;
+    filter: grayscale(30%);
+}
+
+#port-folio div[id^="logo"] a:hover img{
+    transition-duration: 0.2s;
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+#logo_pimento:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background-color: #CC392A;
+}
+
+#port-folio div[id^="logo"] .figure{
+    margin: 15px;
+}
+
+#logo_pimento{
+    /*background: #CC392A;*/
+    text-align: center;
+    height: 100%;
+}
+
+#logo_pimento figcaption{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: x-large;
+    display: inline-block;
+}
+
+#logo_graffcomics{
+    /*background: #fffefd;*/
+    text-align: center;
+    height: 100%;
+}
+
+#logo_graffcomics figcaption{
+    /*color: #151515;*/
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: x-large;
+    display: inline-block;
+}
+
+#logo_graffcomics:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background-color: white;
+}
+
+#logo_graffcomics:hover figure figcaption{
+    color:black;
+}
+
+.logo_img{
+    max-height: 15rem;
+}
+
+#contact{
+    text-align: center;
+    font-size: 5em;
+}
+
+#contact a{
+    color: #d5d5d5;
+}
+#contact a:hover{
+    color: white;
+}
+
+@keyframes bg {
+    from {
+        background-color: #709dee;
+    }
+
+    to {
+        background-color: #2d5cbf;
+    }
+}
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes btn_menu_effect {
+    0% {
+        width:110%;
+        height:110%;
+        left: -5%;
+        top:-5%;
+    }
+
+    50%{
+        width:90%;
+        height:90%;
+        left: 5%;
+        top: 5%;
+    }
+
+    100% {
+        width:100%;
+        height:100%;
+        left: 0;
+        top:0;
+    }
+}
+
+@media (max-width: 576px) {
+    .fullname {
+        line-height: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #competences:after, #experiences:after, #diplomes:after {
+        width: 60vw;
+        height: 100vw;
+        opacity: 0.5;
+        animation-duration : 15s;
+    }
+
+    #competences:after, #experiences:after{
+        left: 0;
+    }
+}
